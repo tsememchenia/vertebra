@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  dicom-to-mesh:
+    build: .
+    container_name: dtm
+    tty: true
+    volumes:
+      - D:/private/projects/vertebra/dicom:/app/vertebra/dicom:ro
+      - D:/private/projects/vertebra/mesh:/app/vertebra/mesh:rw
+      - D:/private/projects/vertebra/scripts:/app/vertebra/scripts:ro
