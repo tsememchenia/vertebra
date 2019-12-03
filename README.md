@@ -1,3 +1,10 @@
+About
+====================
+Tool for building 3D model by *.dcm images
+
+How to use
+====================
+
 1. Run docker compose
     ```
     docker-compose up
