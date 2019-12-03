@@ -1,6 +1,6 @@
 About
 ====================
-Tool for building 3D model by *.dcm images
+Tool for building 3D model by DICOM images
 
 How to use
 ====================
