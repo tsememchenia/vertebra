@@ -5,6 +5,6 @@ services:
     container_name: dtm
     tty: true
     volumes:
-      - D:/private/projects/vertebra/dicom:/app/vertebra/dicom:ro
-      - D:/private/projects/vertebra/mesh:/app/vertebra/mesh:rw
-      - D:/private/projects/vertebra/scripts:/app/vertebra/scripts:ro
+      - ${ROOT_DIR}/dicom:/app/vertebra/dicom:ro
+      - ${ROOT_DIR}/mesh:/app/vertebra/mesh:rw
+      - ${ROOT_DIR}/scripts:/app/vertebra/scripts:ro
